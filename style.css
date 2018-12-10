@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    text-align: center;
+}
+main #father div{
+    margin-top:5px;
+}
+main #father div kbd{
+    border:1px solid purple;
+    display:inline-block;
+    width:4em;
+    height:4em;
+    text-transform: uppercase;
+    border-right:none;
+    text-align: center;
+    line-height:4em;
+    color:white;
+    background:#aa9f9f;
+    position: relative;
+}
+main #father div kbd button{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display: none;  
+}
+main #father div kbd:hover button{
+    display: inline-block;
+}
+main #father div:nth-child(2){
+    margin-left:0.6em;
+}
+
+main #father div:nth-child(3){
+    margin-left:1.6em;
+}
